@@ -1,3 +1,16 @@
+## [LCOF29 顺时针打印矩阵](https://leetcode-cn.com/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/)
+
+### 题目
+
+输入一个矩阵，按照从外向里以顺时针的顺序依次打印出每一个数字
+
+### 解析
+
+设置上下左右四个边界
+
+### 代码
+
+```C++
 class Solution {
 public:
     vector<int> spiralOrder(vector<vector<int>>& matrix) {
@@ -26,3 +39,5 @@ public:
         return out;
     }
 };
+```
+
